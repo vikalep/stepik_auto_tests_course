@@ -22,7 +22,6 @@ try:
     # ждем загрузки страницы
     time.sleep(1)
 
-    # находим элемент, содержащий текст
     welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
     # записываем в переменную welcome_text текст из элемента welcome_text_elt
     welcome_text = welcome_text_elt.text
